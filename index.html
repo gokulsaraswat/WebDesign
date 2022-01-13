@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hola Person !</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Hello To My "NEW" World
+      </h1>
+      <p class="subtitle">
+        My first Deployed website with <strong>Ever Made</strong>!
+      </p>
+      <div class="columns">
+        <div class="column is-two-thirds">
+          <form class="box">
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control">
+                <input class="input" type="email" placeholder="=> Your Email: temp@gmail.com">
+              </div>
+            </div>
+          
+            <div class="field">
+              <label class="label">Password</label>
+              <div class="control">
+                <input class="input" type="password" placeholder="********">
+              </div>
+            </div>
+          
+            <button class="button is-primary">Sign in</button>
+            <button class="button is-primary">Login</button>
+          </form>
+
+          <div class="dropdown is-right is-hoverable">
+            <div class="dropdown-trigger">
+              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu6">
+                <span>Right aligned</span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu6" role="menu">
+              <div class="dropdown-content">
+                <div class="dropdown-item">
+                  <p>If You are new here click one sign up which <code>is-right</code> modifier for a <strong>creating NUSER</strong> Khi Khi KHi.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://miro.medium.com/max/1200/1*oC1wQeImbqzcfO3jixK2oQ.jpeg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="https://cryptologos.cc/logos/aeternity-ae-logo.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">Albert Einstein</p>
+                  <p class="subtitle is-6">@AE_IA</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                Two things are infinite: the universe and human stupidity; and I'm not sure about the universe
+                 <a>@albert</a>.
+                <a href="#">#quote</a> <a href="#">#responsive</a>
+                <br>
+                <time datetime="1923-1-1">11:09 PM - 1 Jan 1946</time>
+              </div>
+            </div>
+            <footer class="card-footer">
+              
+    <p class="card-footer-item">
+      <span>
+        View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+      </span>
+    </p>
+    <p class="card-footer-item">
+      <span>
+        Share on <a href="#">Facebook</a>
+      </span>
+    </p>
+  </footer>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="box">
+        <article class="media">
+          <div class="media-left">
+            <figure class="image is-64x64">
+              <img src="https://th.bing.com/th/id/OIP.OfGshSlsSYpkWN3TpRTdagAAAA?pid=ImgDet&rs=1" alt="Image">
+            </figure>
+          </div>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <strong>William W. Purkey</strong> <small>@purkeydurkey_wwp</small> <small>31m</small>
+                <br>
+                “You've gotta dance like there's nobody watching,
+                Love like you'll never be hurt,
+                Sing like there's nobody listening,
+                And live like it's heaven on earth.”
+                
+              </p>
+            </div>
+            <nav class="level is-mobile">
+              <div class="level-left">
+                <a class="level-item" aria-label="reply">
+                  <span class="icon is-small">
+                    <i class="fas fa-reply" aria-hidden="true"></i>
+                  </span>
+                </a>
+                <a class="level-item" aria-label="retweet">
+                  <span class="icon is-small">
+                    <i class="fas fa-retweet" aria-hidden="true"></i>
+                  </span>
+                </a>
+                <a class="level-item" aria-label="like">
+                  <span class="icon is-small">
+                    <i class="fas fa-heart" aria-hidden="true"></i>
+                  </span>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </article>
+      </div>
+
+    </div>
+
+  </section>
+
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBdLUXh3AC1tOGeS7NmlJVc1hLHONjS6HQ",
+    authDomain: "porty-6a0b8.firebaseapp.com",
+    projectId: "porty-6a0b8",
+    storageBucket: "porty-6a0b8.appspot.com",
+    messagingSenderId: "244483125686",
+    appId: "1:244483125686:web:e94636e2e3235e6b211117",
+    measurementId: "G-8GNB6ST7XJ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+  </body>
+</html>
