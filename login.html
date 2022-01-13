@@ -1,4 +1,4 @@
-<!-- ###SignInPage -->
+<!-- ###loginPage --><!-- ###SignInPage -->
 
 <!DOCTYPE html>
 <html>
@@ -21,64 +21,49 @@
         <div class="column is-two-thirds">
 
           <form class="box">
+            <div class="field is-horizontal">
+                <!-- <div class="field-label is-normal">
+                  <label class="label">From</label> 
+                </div> -->
+                <div class="field-body">
+                  
             <div class="field">
-              <label class="label">Name</label>
-              <div class="control">
-                <div class="columns is-1">
-                  <div class="select column is-narrow is-hovered">
-                    <select>
-                      <option selected>Mr.</option>
-                      <option>Mrs.</option>
-                      <option>Eng.</option>
-                      <option>Mr.</option>
-                      <option>Stu.</option>
-                    </select>
-                    <div class="icon is-small is-left">
-                      <i class="fas fa-globe"></i>
-                    </div>
-                  </div>
-                  <div class="column">
-                    <input class="input column" type="name" placeholder="=> Your FirstName">
-                  </div>
-                  <div class="column">
-                    <input class="input column" type="name" placeholder="=> Your LastName/Surname">
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-            <div class="field">
-              <label class="label">Username</label>
-              <div class="control has-icons-left has-icons-right">
-                <input class="input is-success" type="text" placeholder="Text input" value="bulma">
-                <span class="icon is-small is-left">
-                  <i class="fas fa-user"></i>
-                </span>
-                <span class="icon is-small is-right">
-                  <i class="fas fa-check"></i>
-                </span>
-              </div>
-              <p class="help is-success">This username is available</p>
-            </div>
-
-            <div class="field"> 
-              <label class="label">Email</label>
-              <div class="control">
-                <p class="control has-icons-left has-icons-right">
-                  <input class="input is-rounded is-danger" type="email" placeholder="Your Email: temp@gmail.com">
+                <label class="label">Username</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input is-success" type="text" placeholder="Text input" value="bulma">
                   <span class="icon is-small is-left">
-                    <i class="fas fa-envelope"></i>
+                    <i class="fas fa-user"></i>
                   </span>
                   <span class="icon is-small is-right">
                     <i class="fas fa-check"></i>
                   </span>
-                  <span class="icon is-small is-right">
-                    <i class="fas fa-exclamation-triangle"></i>
-                  </span>
-                </p>
+                </div>
+                <p class="help is-danger">This username is INVALUD</p>
               </div>
-              <p class="help is-danger">This email is invalid</p>
-            </div>
+  
+              <div class="field"> 
+                <label class="label">Email</label>
+                <div class="control">
+                  <p class="control has-icons-left has-icons-right">
+                    <input class="input is-rounded is-danger" type="email" placeholder="Your Email: temp@gmail.com">
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                      <i class="fas fa-check"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                      <i class="fas fa-exclamation-triangle"></i>
+                    </span>
+                  </p>
+                </div>
+                <p class="help is-danger">This email is invalid</p>
+              </div>
+                  
+                </div>
+              </div>
+
+
 
 
             <div class="field">
@@ -89,24 +74,12 @@
             </div>
 
 
-            <div class="field">
-              <label class="label">Comment</label>
-              <div class="control">
-                <input class="input" type="text" placeholder="comment something in your mind">
-              </div>
-            </div>
 
             
-            <div class="field">
-              <label class="checkbox">
-                <input type="checkbox">
-                I agree to the <a href="#">terms and conditions</a>
-              </label>
-            </div>
             <div class="field is-grouped is-grouped">
               <p class="control is-left">
                 <a class="button is-primary">
-                  Sign in
+                  Login
                 </a>
               </p>
             </div>
@@ -128,26 +101,10 @@
 
 
 
-            <div class="file has-name is-right">
-              <label class="file-label">
-                <input class="file-input" type="file" name="resume">
-                <span class="file-cta">
-                  <span class="file-icon">
-                    <i class="fas fa-upload"></i>
-                  </span>
-                  <span class="file-label">
-                    Choose a file…
-                  </span>
-                </span>
-                <span class="file-name">
-                  Screen Shot 2017-07-29 at 15.54.25.png
-                </span>
-              </label>
-            </div>
           </form>
           
           <p class="control is-right">
-            <a href="#">Already Has an Account</a>
+            <a href="#">Create an new Account</a>
           </p>
 
           <div class="dropdown is-right is-hoverable">
